@@ -3,7 +3,7 @@ import React from 'react'
 function StatsCard({Title,amount,color}) {
     return (
         <div>
-            <div className="shadow-2xl h-full border-2 border-stone-800 bg-white p-5 rounded-md bg-opacity-5 backdrop-filter backdrop-blur-lg">
+            <div className="rounded-lg  h-full  stats p-5">
                     <div className="flex w-full  h-100 items-center justify-between">
                         <div className="text-white text-sm sm:text-md">{Title}</div>
                         </div>

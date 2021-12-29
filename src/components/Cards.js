@@ -40,7 +40,7 @@ function Cards() {
             return(
                 < >
                 <div  className="rounded-xl bg-gray-100 bg-opacity-5 flex flex-col items-center">
-                    <CoinCard  coinName={coin.symbol} coinType={coin.type} coinPrice={millify(coin.price)} coinUrl={coin.iconUrl} marketCap={millify(coin.marketCap)} coinVolume = {millify(coin.volume)}/>
+                    <CoinCard  coinName={coin.symbol} coinPrice={millify(coin.price)} coinUrl={coin.iconUrl} marketCap={millify(coin.marketCap)} coinVolume = {millify(coin.volume)}/>
                 </div>  
                 <Chart coinId={coin.id}/>
           </>

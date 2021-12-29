@@ -21,12 +21,13 @@ function Dashboard() {
                
 
 
-             <section className="ml-2 mr-2 sm:w-f grid-extra gap-y-2 gap-x-2 grid-phone  lg:cols-lg lg:grid-cols-4 lg:grid-rows-5 lg:w-f sm:w-11/12  mt-10 w-96  ">
+             <section className="ml-2 mr-2 sm:w-f grid-extra gap-y-7 gap-x-2 grid-phone  lg:cols-lg lg:grid-cols-4 lg:grid-rows-5 lg:w-f sm:w-11/12  mt-10 w-96  ">
             <Cards/>
     
            </section>
 
             </div>
+            <footer className="bg-zinc-900 mt-8 w-full text-center">made by roshaan</footer>
 
       
             

@@ -32,11 +32,15 @@ body{
   height:100%;
   padding:0;
   margin:0;
-  background-color: rgb(0, 0, 0);
+  background: #0b0a0a;
  
 
 
 
+}
+
+.black{
+  background: #0b0a0a;
 }
 
 .height-100{
@@ -56,6 +60,40 @@ body{
   grid-template-rows:1fr 1fr;
   
 }
+.neon {
+  background-color: #49FF00;
+  box-shadow:
+  0 0 5px rgba(73, 255, 0, .7),
+  0 0 20px rgba(73, 255, 0, .7),
+  0 0 40px rgba(73, 255, 0, .7);
+  
+}
+
+.neo{
+  
+  background: #0b0a0a;
+  box-shadow:  20px 20px 36px #060505,
+               -20px -20px 36px #100f0f;
+}
+.card-neo{
+  
+background: #272525;
+box-shadow: inset -21px -21px 34px #100f0f,
+            inset 21px 21px 34px #3e3b3b;
+}
+
+
+@keyframes glow {
+  0% {
+  border-color: #393;
+  box-shadow: 0 0 5px rgba(15, 255, 15, 0.2), inset 0 0 5px rgba(10, 218, 10, 0.89), 0 2px 0 #000;
+  }	
+  100% {
+  border-color: #6f6;
+  box-shadow: 0 0 20px rgba(0,255,0,.6), inset 0 0 10px rgba(0,255,0,.4), 0 2px 0 #000;
+  }
+}
+
 .cols-lg{
  background:red;
 }
@@ -74,3 +112,9 @@ body{
   }
 }
 
+.stats{
+
+  background: linear-gradient(145deg, #0a0909, #0c0b0b);
+box-shadow:  20px 20px 20px #030101,
+             -5px -5px 20px #080606;
+}
