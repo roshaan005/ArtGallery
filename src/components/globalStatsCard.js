@@ -34,10 +34,10 @@ function GlobalStatsCard() {
         })
     return (
         <section className="sm:grid-cols-4 gap-3 rounded-lg sm:grid-rows-none sm:grid-cols-4 sm:h-44 md:grid-rows-none  md:h-44 md:w-10/12  grid grid-cols-2 grid-rows-2 w-11/12 h-64">
-               <StatsCard color={"text-green-500"} Title={"total coins"} amount={coins}/>
-               <StatsCard color={"text-yellow-500"} Title={"total exchanges"} amount={exchanges}/>
-               <StatsCard color={"text-red-700"} Title={"total Market Cap"} amount={marketCap}/>
-               <StatsCard color={"text-orange-500"} Title={"total Markets"} amount={markets}/>
+               <StatsCard color={"text-green-500"} Title={"Total coins"} amount={coins}/>
+               <StatsCard color={"text-yellow-500"} Title={"Total exchanges"} amount={exchanges}/>
+               <StatsCard color={"text-red-700"} Title={"Total Market Cap"} amount={marketCap}/>
+               <StatsCard color={"text-orange-500"} Title={"Total Markets"} amount={markets}/>
                
             </section>
             
